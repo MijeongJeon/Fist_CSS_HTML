@@ -1,0 +1,87 @@
+h1, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ddd;
+    text-align: center;
+}
+
+.pokemon {
+    background-color: white;
+    width: 300px;
+    margin: 250px auto;
+    display: inline-block;
+    border: 3px double
+}
+
+.pika {
+    border-color: orange;
+    background-color: floralwhite;
+}
+
+.coboo {
+    border-color: skyblue;
+    background-color: aliceblue;
+}
+
+.fire {
+    border-color: red;
+    background-color: linen;
+}
+
+.pokemon img {
+    display: block;
+    margin: -200px auto 0px;
+}
+
+.pokemon h1 {
+    color: orange; 
+    border-bottom: 5px solid;
+    display: inline-block;
+}
+
+.coboo h1 {
+    color: skyblue;
+    border-c: skyblue 5px solid;
+}
+
+
+.fire h1 {
+    color: red;
+    border-bottom: red 5px solid;
+}
+
+.pokemon h1 .super {
+    font-size: 0.1em;
+    vertical-align: super;
+    margin-left: 0.24em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: gray;
+}
+
+.pokemon p {
+    margin: 30px;
+    line-height: 1.5;
+}
+
+.pokemon p .pikalink {
+    background-color: orange;
+    color: white;
+    padding: 0.2em 1em 0.1em;
+    margin: 10px;
+    border-radius: 30px;
+    border-bottom: 4px solid black;
+    display: none;
+}
+
+.skill {
+    background-color: #eee;
+    color: #999;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+    display: block;
+}
+

@@ -34,10 +34,21 @@ glennlee@veamcamp.com
 ####  2일차: 선택자! 클래스의 활용
 * 다양한 선택자(Selector)
 * 클래스 선택자의 활용
-* CSS 우선순위
 * CSS 상속
 
 * [수업 내용 정리](2day.md)
 * 결과물 이미지 : 프로필 화면
 
-![orange](./media/day2.png)
+![profile](./media/day2.png)
+
+### 3일차: Block과 Inline의 구분
+* CSS 우선순위
+* display속성 알아보기
+* inline의 세계로
+* inline-block으로 가로배치
+* 타이포그래피 관련 속성들
+
+* [수업 내용 정리](3day.md)
+* 결과물 이미지 : 포켓몬 화면
+
+![pokemon](./media/day3_2.png)
