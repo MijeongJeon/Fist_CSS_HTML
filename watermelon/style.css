@@ -1,0 +1,63 @@
+body, h1, p {
+    margin: 0;
+}
+
+body {
+    background-color: darkslategray;
+}
+
+.cover {
+    background-image: url(images/watermelon-bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+}
+
+.cover h1 {
+    background-color: red;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 10vw;
+    padding: 0.2em 0.1em 0;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrapper {
+    background-color: white;
+    width: 960px;
+    margin: 50px auto;
+    padding: 50px;
+    border: 5px solid darkgreen;
+    border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+}
+
+.wrapper .p {
+    overflow: hidden;
+}
+
+.wrapper h1 {
+    color: red;
+    display: inline-block;
+    margin-bottom: 20px;
+    border-bottom: darkgreen 3px solid;
+}
+
+.wrapper p {
+    float: left;
+    width: 300px;
+    padding: 10px;
+}
+
+.wrapper img {
+    position: absolute;
+    right: -100px;
+    bottom: -100px;
+}

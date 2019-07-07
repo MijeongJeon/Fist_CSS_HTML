@@ -1,0 +1,51 @@
+body, h1, p {
+    margin: 0px;
+}
+
+body {
+    background-color: salmon;
+    color: white;
+}
+
+.wrapper {
+    margin: 0px auto;
+    width: 860px;
+}
+
+.header {
+    color: orange;
+    background-image: url(images/header-bg.png);
+    overflow: hidden;
+}
+
+.header .container {
+    border-width: 20px 20px 0px 20px; 
+    border-style: solid;
+    margin-top: 40px;
+    padding: 40px;
+    overflow: hidden;
+}
+
+.header h1 {
+    display: inline-block;
+    border-bottom: 5px solid;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+.header p {
+    line-height: 1.6;
+}
+
+.header .circle {
+    float: right;
+    margin-bottom: -150px;    
+}
+
+.contents {
+    background-color: darkgray;
+}
+
+.footer {
+    background-color: gainsboro;
+}

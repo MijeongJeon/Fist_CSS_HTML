@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        <title>float로 사이드바 만들기</title>
+        <style>
+            p {
+                margin: 0;
+            }
+
+            body {
+                background-color: #ddd;
+                color: dodgerblue;
+            }
+
+            .wrapper {
+                width: 700px;
+                margin: 50px auto;
+                background-color: white;
+                display: flow-root;
+            }
+
+            .sidebar {
+                float: left;
+                background-color: aqua;
+                width: 100px;
+                height: 300px;
+            }
+            
+            .sidebar.right {
+                float: right;
+            }
+
+            .contents {
+                border: 10px blue solid;
+/*                margin-left: 100px;*/
+                padding: 20px;
+                display: flow-root;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div class="wrapper">
+            <div class="sidebar">Sidebar</div>
+            <div class="sidebar right">Sidebar</div>
+            <p class="contents">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate ele</p>
+        </div>
+        
+    </body>
+</html>
