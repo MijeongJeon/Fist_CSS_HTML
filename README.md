@@ -47,6 +47,7 @@
 
 ![profile](./media/day2.png)
 
+---
 ### 3일차: Block과 Inline의 구분
 * CSS 우선순위
 * display속성 알아보기
@@ -58,6 +59,7 @@
 
 ![pokemon](./media/day3_2.png)
 
+---
 ### 4일차: 레이아웃의 핵심 Float
 * float란 무엇인가?
 * float로 만들 수 있는 다양한 레이아웃
@@ -69,6 +71,7 @@
 ![wood](./media/day4_3.png)
 (to be updated...)
 
+---
 ### 5일차: 레이아웃의 핵심 Position
 * position이란 무엇인가?
 * position으로 만들 수 있는 다양한 레이아웃
